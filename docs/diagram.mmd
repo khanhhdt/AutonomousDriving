@@ -1,0 +1,13 @@
+flowchart LR
+  subgraph S[CARLA Server GPU]
+    W[World Town03] --> R[Renderer]
+    P[Physics 20Hz] --> W
+  end
+  subgraph C[Client Python]
+    CAM[Sensors RGB/Seg/Depth] --> PER[Perception lane + obstacles]
+    PER --> PLAN[FSM planning]
+    PLAN --> CTRL[Pure pursuit + PID]
+    CTRL --> LOG[Metrics/CSV]
+  end
+  R -->|":3001 images"| CAM
+  CTRL -->|"VehicleControl :3000"| P

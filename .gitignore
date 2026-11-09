@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.whl
+output/
+data/
+.venv/

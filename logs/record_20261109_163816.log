@@ -1,0 +1,12 @@
+session data/raw/m1_768/session_20261109_163822 | map Carla/Maps/Town10HD_Opt | driver tm | spawn 22 | route straight | weather clear | frames 150 | route_choice=Nonem/Nonedeg
+20/150 frames | 10.0 fps | 11.2 km/h
+40/150 frames | 10.5 fps | 9.7 km/h
+60/150 frames | 11.1 fps | 9.8 km/h
+80/150 frames | 10.7 fps | 9.9 km/h
+100/150 frames | 11.0 fps | 9.9 km/h
+120/150 frames | 11.1 fps | 9.9 km/h
+140/150 frames | 11.2 fps | 9.9 km/h
+saved 150 frames to data/raw/m1_768/session_20261109_163822 in 13.2s (11.4 fps)
+
+Recorder exit code: 0
+Log: logs/record_20261109_163816.log

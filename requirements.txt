@@ -1,0 +1,3 @@
+# carla 0.9.16 — cài từ wheel của server, xem README
+numpy
+opencv-python
